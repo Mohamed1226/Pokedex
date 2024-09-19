@@ -115,4 +115,10 @@ dependencies {
     implementation (libs.androidx.hilt.navigation.compose)
 
     implementation (libs.palette.v7)
+
+    //Splash Api
+    implementation (libs.androidx.core.splashscreen)
+
+    //Accompanist
+    implementation (libs.accompanist.systemuicontroller)
 }
