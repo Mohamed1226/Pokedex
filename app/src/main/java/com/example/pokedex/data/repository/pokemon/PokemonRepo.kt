@@ -1,8 +1,8 @@
 package com.example.pokedex.data.repository.pokemon
 
 import com.example.pokedex.data.remote.PokemonApi
-import com.example.pokedex.data.remote.response.pokemone_list.Pokemon
-import com.example.pokedex.data.remote.response.pokemone_list.PokemonList
+import com.example.pokedex.data.remote.response.pokemon.Pokemon
+import com.example.pokedex.data.remote.response.pokemon_list.PokemonList
 import com.example.pokedex.util.ResultState
 
 class PokemonRepo(private val pokemonApi: PokemonApi) {
