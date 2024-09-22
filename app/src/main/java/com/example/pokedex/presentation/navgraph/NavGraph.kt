@@ -10,6 +10,7 @@ import androidx.navigation.compose.rememberNavController
 import androidx.navigation.navArgument
 import com.example.pokedex.presentation.navgraph.Routes.pokemonDetailsScreen
 import com.example.pokedex.presentation.navgraph.Routes.pokemonListScreen
+import com.example.pokedex.presentation.pokemon.PokemonListScreen
 
 
 @Composable
@@ -20,6 +21,7 @@ fun NavGraph() {
     NavHost(navController = navController, startDestination = pokemonListScreen) {
         composable(route = pokemonListScreen) {
             /// my compose
+            PokemonListScreen(navController)
         }
         composable(route = "$pokemonDetailsScreen/{pokemonColor}/{pokemonName}", arguments = listOf(
             navArgument(
