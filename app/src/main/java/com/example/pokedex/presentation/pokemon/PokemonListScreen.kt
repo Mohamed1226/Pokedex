@@ -42,5 +42,4 @@ fun PokemonListScreen(navController: NavController) {
             }
         }
     }
-
 }
